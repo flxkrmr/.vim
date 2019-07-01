@@ -23,6 +23,17 @@ set shiftwidth=4	" number of spaces per indent
 "autocmd FileType python setlocal expandtab tabstop=2 shiftwidth=2
 "autocmd FileType make setlocal noexpandtab tabstop=4 shiftwidth=4
 
+" Easy splitting tips from
+" https://thoughtbot.com/blog/vim-splits-move-faster-and-more-naturally
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
+
+
 "Text editing commands
 "set wrap lbr
 "noremap  <buffer> <silent> k gk
